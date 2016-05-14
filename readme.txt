@@ -87,6 +87,7 @@ Newton is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic,
 * - Fixed issue with flexbox and absolutely positioned items in FireFox.
 * - Removed the title shim for sites older than 4.1.
 * - Fixed missing text domain in searchform.php.
+* - Removed the sass files from the (WordPress.org) distribution copy.
 *
 * 1.0.6 / 26.02.2016
 * - Set 'fallback_cb' to false to prevent fallback menu from appearing.

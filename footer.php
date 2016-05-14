@@ -19,10 +19,10 @@
 			<span class="site-info-bottom"><?php printf( __( '%1$s by %2$s', 'newton' ), '<a href="http://michaelvandenberg.com/portfolio/themes/newton/" rel="theme">The Newton theme</a>', '<a href="http://michaelvandenberg.com/" rel="designer">Michael Van Den Berg</a>' ); ?></span>
 		</div><!-- #site-info -->
 	</footer><!-- #colophon -->
-
-	<a href="#content" class="back-to-top"><span class="genericon genericon-top"></span></a>
 	
 </div><!-- #page -->
+
+<a href="#content" class="back-to-top"><span class="genericon genericon-top"></span></a>
 
 <?php wp_footer(); ?>
 

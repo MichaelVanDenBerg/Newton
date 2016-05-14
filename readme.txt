@@ -1,11 +1,7 @@
 NEWTON
-Theme Version: 1.0.6
+Theme Version: 1.0.7
 Author: Michael Van Den Berg 
 Author URL: http://michaelvandenberg.com/
-
-Requires at least: 4.0
-Tested up to: 4.4.1
-Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +82,11 @@ Newton is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic,
 === Changelog ===
 --------------------
 
+*
+* 1.0.7 / 14.05.2016
+* - Fixed issue with flexbox and absolutely positioned items in FireFox.
+* - Removed the title shim for sites older than 4.1.
+* - Fixed missing text domain in searchform.php.
 *
 * 1.0.6 / 26.02.2016
 * - Set 'fallback_cb' to false to prevent fallback menu from appearing.

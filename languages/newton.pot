@@ -1,284 +1,300 @@
-# Copyright (C) 2015 Automattic
-# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2015-01-06 02:24:02+00:00\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Newton\n"
+"POT-Creation-Date: 2016-11-24 21:23+0100\n"
+"PO-Revision-Date: 2016-11-24 21:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:19
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
 msgstr ""
 
 #: 404.php:27
 msgid "Most Used Categories"
 msgstr ""
 
-#. translators: %1$s: smiley
-
 #: 404.php:44
+#, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
-#: comments.php:28
+#: comments.php:29 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:32 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:33 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:42
+#, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:35 comments.php:52
-msgid "Comment navigation"
-msgstr ""
-
-#: comments.php:36 comments.php:53
-msgid "&larr; Older Comments"
-msgstr ""
-
-#: comments.php:37 comments.php:54
-msgid "Newer Comments &rarr;"
-msgstr ""
-
-#: comments.php:64
+#: comments.php:77
 msgid "Comments are closed."
 msgstr ""
 
-#: content-none.php:13
-msgid "Nothing Found"
+#: footer.php:18
+msgid "Powered by "
 msgstr ""
 
-#: content-none.php:19
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-
-#: content-none.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
-
-#: content-none.php:28
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
-
-#: content-page.php:18 content-single.php:20 content.php:29
-msgid "Pages:"
-msgstr ""
-
-#: content-page.php:25 inc/template-tags.php:126
-msgid "Edit"
-msgstr ""
-
-#. translators: %s: Name of current post
-
-#: content.php:22
-msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#: footer.php:15
+#: footer.php:18
 msgid "http://wordpress.org/"
 msgstr ""
 
-#: footer.php:15
-msgid "Proudly powered by %s"
+#: footer.php:19
+#, php-format
+msgid "%1$s by %2$s"
 msgstr ""
 
-#: footer.php:17
-msgid "Theme: %1$s by %2$s."
-msgstr ""
-
-#: functions.php:53 header.php:31
+#: functions.php:48
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:88
-msgid "Sidebar"
+#: functions.php:102
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:111
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:139
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:147
+msgctxt "Archivo Narrow font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:155
+msgctxt "Add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:199
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:200
+msgid "collapse child menu"
 msgstr ""
 
 #: header.php:22
 msgid "Skip to content"
 msgstr ""
 
-#: inc/extras.php:64
-msgid "Page %s"
+#: header.php:35
+msgid "Menu"
 msgstr ""
 
-#: inc/template-tags.php:23
-msgid "Posts navigation"
+#: inc/customizer.php:24
+msgid "Sidebar Background Color"
 msgstr ""
 
-#: inc/template-tags.php:27
-msgid "Older posts"
+#: inc/customizer.php:36
+msgid "Widget Background Color"
 msgstr ""
 
-#: inc/template-tags.php:31
-msgid "Newer posts"
+#: inc/customizer.php:48
+msgid "Menu Background Color"
 msgstr ""
 
-#: inc/template-tags.php:56
-msgid "Post navigation"
+#: inc/customizer.php:60
+msgid "Sidebar Text Color"
 msgstr ""
 
-#: inc/template-tags.php:86
-msgctxt "post date"
-msgid "Posted on %s"
+#: inc/customizer.php:72
+msgid "Sidebar Link Color"
 msgstr ""
 
-#: inc/template-tags.php:91
-msgctxt "post author"
-msgid "by %s"
+#: inc/customizer.php:84
+msgid "Sidebar Link Hover Color"
 msgstr ""
 
-#. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:108 inc/template-tags.php:114
+#: inc/customizer.php:96
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Content Text Color"
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Content Link Color"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Content Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Quote Background Color"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Quote Text Color"
+msgstr ""
+
+#: inc/customizer.php:168
+msgid "Quote Link Color"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Quote Link Hover Color"
+msgstr ""
+
+#: inc/template-tags.php:46 inc/template-tags.php:53
 msgid ", "
 msgstr ""
 
-#: inc/template-tags.php:110
-msgid "Posted in %1$s"
+#: inc/template-tags.php:47
+msgid "Posted in: "
 msgstr ""
 
-#: inc/template-tags.php:116
-msgid "Tagged %1$s"
+#: inc/template-tags.php:54
+msgid "Tagged with: "
 msgstr ""
 
-#: inc/template-tags.php:122
-msgid "Leave a comment"
+#: inc/template-tags.php:62
+#, php-format
+msgctxt "post author"
+msgid "Written by: %s"
 msgstr ""
 
-#: inc/template-tags.php:122
+#: inc/template-tags.php:76 template-parts/content-page.php:28
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:81
+msgid "No comments"
+msgstr ""
+
+#: inc/template-tags.php:81
 msgid "1 Comment"
 msgstr ""
 
-#: inc/template-tags.php:122
+#: inc/template-tags.php:81
 msgid "% Comments"
 msgstr ""
 
-#: inc/template-tags.php:143
-msgid "Category: %s"
-msgstr ""
-
-#: inc/template-tags.php:145
-msgid "Tag: %s"
-msgstr ""
-
-#: inc/template-tags.php:147
-msgid "Author: %s"
-msgstr ""
-
-#: inc/template-tags.php:149
-msgid "Year: %s"
-msgstr ""
-
-#: inc/template-tags.php:149
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr ""
-
-#: inc/template-tags.php:151
-msgid "Month: %s"
-msgstr ""
-
-#: inc/template-tags.php:151
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr ""
-
-#: inc/template-tags.php:153
-msgid "Day: %s"
-msgstr ""
-
-#: inc/template-tags.php:153
-msgctxt "daily archives date format"
-msgid "F j, Y"
-msgstr ""
-
-#: inc/template-tags.php:155
-msgctxt "post format archive title"
-msgid "Asides"
-msgstr ""
-
-#: inc/template-tags.php:157
-msgctxt "post format archive title"
-msgid "Galleries"
-msgstr ""
-
-#: inc/template-tags.php:159
-msgctxt "post format archive title"
-msgid "Images"
-msgstr ""
-
-#: inc/template-tags.php:161
-msgctxt "post format archive title"
-msgid "Videos"
-msgstr ""
-
-#: inc/template-tags.php:163
-msgctxt "post format archive title"
-msgid "Quotes"
-msgstr ""
-
-#: inc/template-tags.php:165
-msgctxt "post format archive title"
-msgid "Links"
-msgstr ""
-
-#: inc/template-tags.php:167
-msgctxt "post format archive title"
-msgid "Statuses"
-msgstr ""
-
-#: inc/template-tags.php:169
-msgctxt "post format archive title"
-msgid "Audio"
-msgstr ""
-
-#: inc/template-tags.php:171
-msgctxt "post format archive title"
-msgid "Chats"
-msgstr ""
-
-#: inc/template-tags.php:173
-msgid "Archives: %s"
-msgstr ""
-
-#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
-
-#: inc/template-tags.php:177
-msgid "%1$s: %2$s"
-msgstr ""
-
-#: inc/template-tags.php:179
-msgid "Archives"
-msgstr ""
-
 #: search.php:16
+#, php-format
 msgid "Search Results for: %s"
 msgstr ""
+
+#: searchform.php:13
+msgctxt "before form"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "in search field"
+msgid "Search ..."
+msgstr ""
+
+#: searchform.php:14
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16
+msgid "Search Submit"
+msgstr ""
+
+#: template-parts/author-bio.php:11
+msgid "Published by"
+msgstr ""
+
+#: template-parts/author-bio.php:34
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: template-parts/content-image.php:28 template-parts/content-quote.php:21
+#: template-parts/content.php:25
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: template-parts/content-image.php:35 template-parts/content-page.php:21
+#: template-parts/content-quote.php:28 template-parts/content.php:32
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
 #. Theme Name of the plugin/theme
-msgid "_s"
+msgid "Newton"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://underscores.me/"
+msgid "https://michaelvandenberg.com/themes/#newton"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
+msgid ""
+"Newton is a slightly different approach to the familiar three columned "
+"layout we all know so well. Instead of restricting everything in the middle "
+"of the screen the sidebars are free to float to the outermost edges. Newton "
+"supports several post formats, scales well to all screen sizes and is "
+"accessibility-ready."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Automattic"
+msgid "Michael Van Den Berg"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://automattic.com/"
+msgid "https://michaelvandenberg.com/"
 msgstr ""
